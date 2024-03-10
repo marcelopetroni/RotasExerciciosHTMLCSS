@@ -1,0 +1,46 @@
+html {
+    background-color: #E2EFDA;
+}
+header {
+    display: flex;
+    font-family: "Manrope", sans-serif;
+}
+header h1 {
+    display: flex;
+    color: #27391C;
+    margin: 10px 0px 10px 12px;
+    font-size: 42px;
+}
+main {
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 12px;
+}
+
+.multimidia-container {
+    display: flex;
+    flex-direction: column;
+}
+.multimidia-container h2 {
+    margin-left: 15px;
+    font-size: 35px;
+    color: #27391C;
+}
+.midias {
+    display: flex;
+    flex-direction: row;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+.audio {
+    margin-left: 12px;
+}
+main a {
+    margin-left: 15px;
+    margin-top: 6px;
+    color: #27391C;
+}
